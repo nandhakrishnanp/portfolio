@@ -3,13 +3,13 @@
 import React from 'react'
 import bhuvan from "@/assets/bhuvan1.png";
 import home from "@/assets/home.png";
-import tcu from "@/assets/dashboardtcu.png";
+
 import nike from '@/assets/nike.png'
 import wog from '@/assets/worthofgeeks.png'
 import uniteio from '@/assets/uniteio.png'
 import waytogo from "@/assets/waytogo.png"
 import cofound from "@/assets/COFoundIo.png"
-import git from "@/assets/git.svg"
+
 import Image from 'next/image';
 import dump from"@/assets/DumpDynamiX.png"
 import cgpa from "@/assets/image.png"
