@@ -5,7 +5,7 @@ const Skills = () => {
     const tools = [
         { name: "Git", description: "Version control", imgUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Git_icon.svg/2048px-Git_icon.svg.png" },
         { name: "GitHub", description: "Code hosting", imgUrl: "https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_960_720.png" },
-        { name: "Postman", description: "API testing", imgUrl: "https://cdn.creazilla.com/icons/3254217/postman-icon-lg.png" },
+        { name: "Postman", description: "API testing", imgUrl: "https://cdn.icon-icons.com/icons2/3053/PNG/512/postman_macos_bigsur_icon_189815.png" },
       ];
       
       const backend = [
