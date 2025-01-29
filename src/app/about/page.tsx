@@ -41,7 +41,7 @@ const About = () => {
                       <p> 2023 - 2027</p>
                       </div>
                    
-                      <p>CGPA - 9.07</p>
+                      <p>CGPA - 9.59</p>
                  </div>
             </div>
 
