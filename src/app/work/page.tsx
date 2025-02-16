@@ -92,7 +92,7 @@ const Work = () => {
     
       
   return (
-   <div className=' w-full flex  justify-center font-space items-center'>
+   <div className=' w-full flex  justify-center text-white font-space items-center'>
     <div className=' md:max-w-4xl max-md:m-8 '>
 
 

@@ -3,7 +3,7 @@ import React from "react";
 import svm from "@/assets/logo.jpg"
 const About = () => {
   return (
-    <div className=" flex flex-col w-full  items-center    font-space">
+    <div className=" flex flex-col w-full text-white   items-center    font-space">
 
       <div className=" max-md:m-7 max-md:text-pretty">
       <div className=" max-w-4xl items-start flex flex-col justify-start">

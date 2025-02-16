@@ -39,7 +39,7 @@ const Skills = () => {
       
       
   return (
-    <div className="  w-full relative font-space md:px-12 ">
+    <div className="  w-full relative font-space md:px-12 text-white ">
       <div className="   flex items-center justify-center">
         <div className=" max-w-4xl max-md:m-6">
 
