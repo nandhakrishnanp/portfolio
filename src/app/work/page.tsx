@@ -9,12 +9,20 @@ import wog from '@/assets/worthofgeeks.png'
 import uniteio from '@/assets/uniteio.png'
 import waytogo from "@/assets/waytogo.png"
 import cofound from "@/assets/COFoundIo.png"
-
+import agrichain from '@/assets/agrichain.png'
 import Image from 'next/image';
 import dump from"@/assets/DumpDynamiX.png"
 import cgpa from "@/assets/image.png"
 const Work = () => {
     const project = [
+      {
+        name: "Agri Chain",
+        tech: ["React.js", "Express.js" , "MongoDb"],
+        description: "A Decentralized Platform For Consumers Connecting With Farmers",
+        github: "https://github.com/nandhakrishnanp/agriChain",
+        livePage: null,
+        image: agrichain,
+      },
         {
           name: "DumpDynamix",
           tech: ["React.js", "Express.js", "MongoDB", "React Native"],
@@ -86,7 +94,7 @@ const Work = () => {
           github: "https://github.com/nandhakrishnanp/Comet",
           livePage: null,
           image: home,
-        }
+        },
       ];
 
     
