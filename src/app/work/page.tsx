@@ -3,7 +3,7 @@
 import React from 'react'
 import bhuvan from "@/assets/bhuvan1.png";
 import home from "@/assets/home.png";
-
+import hazoo from "@/assets/hazoo.jpg"
 import nike from '@/assets/nike.png'
 import wog from '@/assets/worthofgeeks.png'
 import uniteio from '@/assets/uniteio.png'
@@ -15,6 +15,7 @@ import dump from"@/assets/DumpDynamiX.png"
 import cgpa from "@/assets/image.png"
 const Work = () => {
     const project = [
+
       {
         name: "Agri Chain",
         tech: ["React.js", "Express.js" , "MongoDb"],
@@ -23,12 +24,21 @@ const Work = () => {
         livePage: null,
         image: agrichain,
       },
+      {
+        name: "Hazoo.ai",
+        tech: ["React.js", "Express.js" , "React Native","DeepLearning"],
+        description: "a Deep learning based Road Hazard Detection With Platform For Gov Officials and A mobile App for Citizens for Community Reporting",
+        github: "https://github.com/nandhakrishnanp/hazoo.ai",
+        livePage: null,
+        image: agrichain,
+      },
+
         {
           name: "DumpDynamix",
           tech: ["React.js", "Express.js", "MongoDB", "React Native"],
           description: "a cross-platform mobile application built with React Native, complemented by a web-based dashboard. It is designed for real-time monitoring, maintenance, and management of truck tyres",
           github: "https://github.com/nandhakrishnanp/DumpDynamix",
-          image: dump,
+          image: hazoo,
         },
         {
           name: "Cofound.io",
