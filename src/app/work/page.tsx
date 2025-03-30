@@ -13,11 +13,21 @@ import agrichain from "@/assets/agrichain.png";
 import Image from "next/image";
 import dump from "@/assets/DumpDynamiX.png";
 import cgpa from "@/assets/image.png";
+import SkillHive from "@/assets/Skillhive.png"
 const Work = () => {
   const project = [
     {
       name: "Agri Chain",
       tech: ["React.js", "Express.js", "MongoDb"],
+      description:
+        "SkillHive is a skill-sharing platform designed for instructors and learners to connect, share knowledge, and grow together.",
+      github: "https://github.com/nandhakrishnanp/SkillHive",
+      livePage: 'https://skillhive-three.vercel.app/',
+      image: SkillHive,
+    },
+    {
+      name: "Agri Chain",
+      tech: ["Next.js", "Express.js", "MongoDb"],
       description:
         "A Decentralized Platform For Consumers Connecting With Farmers",
       github: "https://github.com/nandhakrishnanp/agriChain",
