@@ -17,7 +17,7 @@ import SkillHive from "@/assets/Skillhive.png"
 const Work = () => {
   const project = [
     {
-      name: "Agri Chain",
+      name: "Skill Hive",
       tech: ["React.js", "Express.js", "MongoDb"],
       description:
         "SkillHive is a skill-sharing platform designed for instructors and learners to connect, share knowledge, and grow together.",
