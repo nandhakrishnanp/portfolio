@@ -39,7 +39,6 @@ export default function RootLayout({
         className={`${geistSans.variable} bg-black ${geistMono.variable} ${spaceGrotesk.variable} antialiased`}
       >
          <Navbar/>
-          <SplashCursor/>
         {children}
         <Footer/>
       </body>

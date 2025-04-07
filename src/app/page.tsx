@@ -1,11 +1,12 @@
 import Carosol from '@/components/Carosol'
+import SplashCursor from '@/components/SplashScreen'
 import Link from 'next/link'
 import React from 'react'
 
 const Home = () => {
   return (
  <div className='  w-full bg-black font-space md:px-12 ' >
-
+<SplashCursor/>
     <div className=' h-[70vh]   flex items-center justify-center'>
       <div className=' max-w-4xl max-md:m-8'>
    
