@@ -1,12 +1,14 @@
 import Image from "next/image";
 import React from "react";
 import svm from "@/assets/logo.jpg"
+import Link from "next/link";
+
 const About = () => {
   return (
     <div className=" flex flex-col w-full text-white   items-center    font-space">
 
       <div className=" max-md:m-7 max-md:text-pretty">
-      <div className=" max-w-4xl items-start flex flex-col justify-start">
+      <div className=" max-w-4xl  items-start flex flex-col justify-start">
         <h1 className=" font-bold text-4xl py-2">About Me</h1>
 
         <p className=" text-lg mt-4 text-accent">
@@ -46,7 +48,7 @@ const About = () => {
             </div>
 
          </div>
-         <div className=" flex  justify-start py-2 px-4 rounded-md cursor-pointer mt-2 bg-[#222222]">
+         <div className=" flex   justify-start py-2 px-4 rounded-md cursor-pointer mt-5 bg-[#222222]">
       
       <div className="flex items-center gap-4  py-4 ">
            <div>
@@ -65,6 +67,14 @@ const About = () => {
 
    </div>
       </div>
+
+      <div className=" flex items-center justify-center  m-9">
+
+      
+             <Link href="/work"><p>View My Works</p></Link>
+      </div>
+
+
       </div>
       
       
