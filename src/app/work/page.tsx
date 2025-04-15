@@ -128,6 +128,12 @@ const Work = () => {
     },
   ];
 
+  function searchGoogle(query :string) {
+    const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+    window.open(url, '_blank');
+  }
+  
+
   return (
     <div className=" w-full flex  justify-center text-white font-space items-center">
       <div className=" md:max-w-4xl max-md:m-8 ">
@@ -152,7 +158,10 @@ const Work = () => {
               <div className=" flex gap-3">
                 {item.tech.map((tech) => (
                   <span
-                    className=" underline underline-offset-4  cursor-pointer text-[#c7c7c7]"
+                    onClick={() => {
+                      searchGoogle(tech);
+                    }}
+                    className=" hover:text-white underline underline-offset-4  cursor-pointer text-[#c7c7c7]"
                     key={tech}
                   >
                     {tech}

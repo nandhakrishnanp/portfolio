@@ -1,3 +1,4 @@
+'use client'
 import React from "react";
 
 const Skills = () => {
@@ -37,6 +38,11 @@ const Skills = () => {
         { name: "Redux-Toolkit", description: "State management", imgUrl: "https://cdn.worldvectorlogo.com/logos/redux.svg" },
       ];
       
+      function searchGoogle(query :string) {
+        const url = `https://www.google.com/search?q=${encodeURIComponent(query)}`;
+        window.open(url, '_blank');
+      }
+      
       
   return (
     <div className="  w-full relative font-space md:px-12 text-white ">
@@ -48,7 +54,9 @@ const Skills = () => {
         <div className=" flex flex-wrap py-8">
           {
             frontend.map((item, index) => (
-              <div key={index} className="flex gap-5 items-center p-5">
+              <div key={index} onClick={()=>{
+                searchGoogle(item.name)
+              }} className="flex  cursor-pointer hover:bg-gray-900 gap-5 items-center p-5">
                 <img src={item.imgUrl} alt={item.name} className="w-12 object-contain h-12" />
                 <div >
                   <h3>{item.name}</h3>
@@ -62,7 +70,9 @@ const Skills = () => {
         <div className=" flex flex-wrap py-8">
           {
             backend.map((item, index) => (
-              <div key={index} className="flex gap-5 items-center p-5">
+              <div key={index} onClick={()=>{
+                searchGoogle(item.name)
+              }} className="flex hover:bg-gray-900  cursor-pointer  gap-5 items-center p-5">
                 <img src={item.imgUrl} alt={item.name} className="w-12 object-contain h-12" />
                 <div >
                   <h3>{item.name}</h3>
@@ -76,7 +86,9 @@ const Skills = () => {
         <div className=" flex flex-wrap py-8">
           {
             devops.map((item, index) => (
-              <div key={index} className="flex gap-5 items-center p-5">
+              <div key={index} onClick={()=>{
+                searchGoogle(item.name)
+              }} className="flex hover:bg-gray-900 cursor-pointer gap-5 items-center p-5">
                 <img src={item.imgUrl} alt={item.name} className="w-12 object-contain h-12" />
                 <div >
                   <h3>{item.name}</h3>
@@ -90,7 +102,9 @@ const Skills = () => {
         <div className=" flex flex-wrap py-8">
           {
             tools.map((item, index) => (
-              <div key={index} className="flex gap-5 items-center p-5">
+              <div key={index} onClick={()=>{
+                searchGoogle(item.name)
+              }} className="flex gap-5 hover:bg-gray-900 cursor-pointer items-center p-5">
                 <img src={item.imgUrl} alt={item.name} className="w-12 object-contain h-12" />
                 <div >
                   <h3>{item.name}</h3>
